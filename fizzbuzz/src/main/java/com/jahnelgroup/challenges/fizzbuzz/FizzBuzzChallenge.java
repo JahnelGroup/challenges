@@ -15,7 +15,7 @@ public class FizzBuzzChallenge {
 
     public static void main(String[] args) {
         System.out.println("======================================");
-        System.out.println("Challenge: Fizz Buzz");
+        System.out.println("Fizz Buzz Challenge");
         System.out.println("======================================");
         new FizzBuzzChallenge().runFizzBuzz();
     }
