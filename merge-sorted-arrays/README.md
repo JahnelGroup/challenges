@@ -1,3 +1,5 @@
+# Merge Sorted Arrays Challenge
+
 Write a program that merges two sorted arrays.
 
 The function will take 3 parameters:
