@@ -12,21 +12,27 @@ The development of this app will take place in three phases, **Phase I**, **Phas
 
 * **Phase III** we take the MVP and implement a completed polished application. We add support for multiple task lists and user accounts so each user has their own lists. 
 
+## Deliverables
+
+To complete this challenge you are expected to create a GitHub repository with all your source code and documentation. It should be descriptive and self explanatory that anyone can pull the code down and run the application locally. 
+
 ## Phase I (Proof of Concept)
+
+Your goal is create a proof-of-concept where each user visit to the page show a temporary task list that allows the addition and removal of tasks. There is no persistent storage or backend server. 
 
 ### Functional Requirements
 
-* Upon loading the app for the first time the user should be presented with a single empty task list
-* When the user enters a task in the "To-do" textbox and clicks the add button or hits the enter key, it will get added to the list
+* Upon loading the app for the first time the user should be presented with a single empty task list.
+* When the user enters a task in the textbox and clicks the add button or hits the enter key it should get added to the list
 * The user should be presented with the ability to remove a task from the task list with a delete link or button
 * The user does not need the ability to edit a task in this Phase
-* If the user refreshes the page, the entire task list will be cleared
+* If the user refreshes the page then the entire task list should be cleared
 
 ### Non-functional Requirements
 * The app must be web based and rendered in a [web browser](https://en.wikipedia.org/wiki/Web_browser)
 * The app does not need to be [cross browser compatible](https://medium.com/@sarahelson81/what-is-cross-browser-compatibility-and-why-we-need-it-b41423c3501a)
 * The app does not need to be [responsive](https://medium.com/swlh/everything-you-need-to-know-about-responsive-web-design-54c2059a7e99)
-* The app will be client-side only and will not connect to any mid-tier or server
+* The app will be client-side only and will not connect to any mid-tier or data store server
 * You do not need to use a [JavaScript Framework](https://raygun.com/blog/popular-javascript-frameworks/) but can if you want
 
 ## Phase II (Minimum Viable Product)
