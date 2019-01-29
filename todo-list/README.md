@@ -4,19 +4,21 @@ The Todo List Challenge is to build a simple web application that allows users t
 
 ## Outline
 
-The development of this app will take place in three phases, **Phase I**, **Phase II** and **Phase III**. Each Phase adds more functionality and increased level of complexity.
+The development of this app will take place in three phases, **Phase 1**, **Phase 2** and **Phase 3**. Each Phase adds more functionality and increased level of complexity.
 
-* **Phase I** we implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. 
+* **Phase 1** we implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. 
 
-* **Phase II** we take the POC and implement a minimum-viable-product (MVP) to provide real value. A simple backend is created and the tasks are saved to a data store. 
+* **Phase 2** we take the POC and implement a minimum-viable-product (MVP) to provide real value. A simple backend is created and the tasks are saved to a data store. 
 
-* **Phase III** we take the MVP and implement a completed polished application. We add support for multiple task lists and user accounts so each user has their own lists. 
+* **Phase 3** we take the MVP and implement a completed polished application. We add support for multiple task lists and user accounts so each user has their own lists. 
 
 ## Deliverables
 
-To complete this challenge you are expected to create a GitHub repository with all your source code and documentation. It should be descriptive and self explanatory that anyone can pull the code down and run the application locally. 
+To complete this challenge you are expected to create a GitHub repository with all your source code and documentation. It should be descriptive and self explanatory that anyone can pull the code down and run the application locally. Each Phase should be provided as a [GitHub release which is powered by git tags](https://help.github.com/articles/working-with-tags/). 
 
-## Phase I (Proof of Concept)
+You are expected to tag each phase as phase1, phase2, and phase3 respectively. Doing this allows us to have a point of reference for when phases are completed. 
+
+## Phase 1 (Proof of Concept)
 
 Your goal is create a proof-of-concept where each user visit to the page show a temporary task list that allows the addition and removal of tasks. There is no persistent storage or backend server. 
 
@@ -39,7 +41,7 @@ Your goal is create a proof-of-concept where each user visit to the page show a 
 * The app does not need to be [responsive](https://medium.com/swlh/everything-you-need-to-know-about-responsive-web-design-54c2059a7e99)
 * You do not need to use a [JavaScript Framework](https://raygun.com/blog/popular-javascript-frameworks/) but can if you want
 
-## Phase II (Minimum Viable Product)
+## Phase 2 (Minimum Viable Product)
 
 Your goal is to enhance the product by adding features and providing persistent storage. Users visiting the site should be able to create, read, update and delete tasks that persist when the browser is closed and then reopened. 
 
@@ -62,7 +64,7 @@ Your goal is to enhance the product by adding features and providing persistent 
 * The app must implement [persistent storage](https://en.wikipedia.org/wiki/Persistence_(computer_science)) (i.e., [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)) to retain the [State](https://en.wikipedia.org/wiki/State_(computer_science)) of To-do Tasks
 * The app must implement a [server-side](https://en.wikipedia.org/wiki/Server-side) component that receives requests and processes them against the persistent storage
 
-## Phase III
+## Phase 3
 
 Your goal is to have different task lists for different users. Additionally you will allow each user to have more than one task list. 
 
