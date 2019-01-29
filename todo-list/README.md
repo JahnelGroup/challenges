@@ -64,7 +64,7 @@ Your goal is to enhance the product by adding features and providing persistent 
 * The app must implement [persistent storage](https://en.wikipedia.org/wiki/Persistence_(computer_science)) (i.e., [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)) to retain the [State](https://en.wikipedia.org/wiki/State_(computer_science)) of To-do Tasks
 * The app must implement a [server-side](https://en.wikipedia.org/wiki/Server-side) component that receives requests and processes them against the persistent storage
 
-## Phase 3
+## Phase 3 (Polish)
 
 Your goal is to have different task lists for different users. Additionally you will allow each user to have more than one task list. 
 
