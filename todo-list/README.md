@@ -4,9 +4,9 @@ The Todo List Challenge is to build a simple web application that allows users t
 
 ## Outline
 
-The development of this app will take place in three phases, Phase I, Phase II and Phase III. Each Phase adds more functionality and an increased level of complexity.
+The development of this app will take place in three phases, **Phase I**, **Phase II** and **Phase III**. Each Phase adds more functionality and increased level of complexity.
 
-* **Phase I** we will implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. The tasks are not actually saved anywhere because there is no backend at all. 
+* **Phase I** we implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. 
 
 * **Phase II** we take the POC and implement a minimum-viable-product (MVP) to provide real value. A simple backend is created and the tasks are saved to a data store. 
 
@@ -15,10 +15,12 @@ The development of this app will take place in three phases, Phase I, Phase II a
 ## Phase I (Proof of Concept)
 
 ### Functional Requirements
-* Upon loading the app for the firs time the user shall be presented with a single empty task list
-* When the user enters a task in the "To-do" textbox and clicks the add button, it will get added to the list
-* If they type a task and hit the enter key, it will also get added to the list
-* If the user refreshes the page, the task list will be cleared
+
+* Upon loading the app for the first time the user should be presented with a single empty task list
+* When the user enters a task in the "To-do" textbox and clicks the add button or hits the enter key, it will get added to the list
+* The user should be presented with the ability to remove a task from the task list with a delete link or button
+* The user does not need the ability to edit a task in this Phase
+* If the user refreshes the page, the entire task list will be cleared
 
 ### Non-functional Requirements
 * The app must be web based and rendered in a [web browser](https://en.wikipedia.org/wiki/Web_browser)
