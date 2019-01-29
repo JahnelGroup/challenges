@@ -22,30 +22,44 @@ Your goal is create a proof-of-concept where each user visit to the page show a 
 
 ### Functional Requirements
 
-* Upon loading the app for the first time the user should be presented with a single empty task list.
-* When the user enters a task in the textbox and clicks the add button or hits the enter key it should get added to the list
-* The user should be presented with the ability to remove a task from the task list with a delete link or button
-* The user does not need the ability to edit a task in this Phase
-* If the user refreshes the page then the entire task list should be cleared
+* Task List
+  * Upon loading the app for the first time the user should be presented with a single empty task list
+  * If the user refreshes the page then the entire task list is expected to be cleared
+* Create Task
+  * When the user enters a task in the textbox and clicks the add button or hits the enter key it should get added to the list
+* Delete Task
+  * The user should have the ability to remove a task from the task list with a delete link or button
+* Out-of-scope
+  * The user does not need the ability to edit a task in this Phase
 
 ### Non-functional Requirements
+* The app will be [client-side](https://en.wikipedia.org/wiki/Client-side) only and will not connect to any mid-tier or data store server
 * The app must be web based and rendered in a [web browser](https://en.wikipedia.org/wiki/Web_browser)
 * The app does not need to be [cross browser compatible](https://medium.com/@sarahelson81/what-is-cross-browser-compatibility-and-why-we-need-it-b41423c3501a)
 * The app does not need to be [responsive](https://medium.com/swlh/everything-you-need-to-know-about-responsive-web-design-54c2059a7e99)
-* The app will be client-side only and will not connect to any mid-tier or data store server
 * You do not need to use a [JavaScript Framework](https://raygun.com/blog/popular-javascript-frameworks/) but can if you want
 
 ## Phase II (Minimum Viable Product)
 
+Your goal is to enhance the product by adding features and providing persistent storage. Users visiting the site should be able to create, read, update and delete tasks that persist when the browser is closed and then reopened. 
+
 ### Functional Requirements
-* If the user checks the checkbox next to a task, the system will cross-out the task to mark it as completed
-* If the user clicks the delete link next to a task, that task will be removed from the list
-* If the user clicks the edit link next to a task, the task will become editable
-* The user will be able to save their edit by hitting the enter key
+
+* Persistent Task List
+  * Changes to the Task List must be persisted between user visits
+  * If the user refreshes the page then the entire task list should be preserved
+  * It's expected that the application maintain one overall Task List, meaning every user visitng the site should interact with the same Task List
+* Edit Task
+  * The user should have the ability to edit a Task and save the changes
+  * During the editing process the user should be able to cancel the action
+* Complete Task
+  * The user should have the ability to mark tasks as complete, the visibile indication that a task is complete should be a strike-through in the font of the Task.
+  * The user should have the ability un-mark a task as complete thereby removing the strike-through.
 
 ### Non-Functional Requirements
 
-* TBD
+* The app must implement [persistent storage](https://en.wikipedia.org/wiki/Persistence_(computer_science)) (i.e., [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)) to retain the [State](https://en.wikipedia.org/wiki/State_(computer_science)) of To-do Tasks
+* The app must implement a [server-side](https://en.wikipedia.org/wiki/Server-side) component that receives requests and processes them against the persistent storage
 
 ## Phase III
 
