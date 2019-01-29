@@ -1,15 +1,16 @@
 # Todo List Challenge
 
-The Todo List Challenge is to build a simple web application that allows users to maintain a list of tasks. The development of this app will take place in three phases, Phase I, Phase II and Phase III. Each Phase adds more functionality and an increased level of complexity.
+The Todo List Challenge is to build a simple web application that allows users to maintain a list of tasks. 
 
-Phase I is all about implementing a useable proof-of-concept based on the requirements
+## Outline
 
-starts by implementing a front-end only application, no backend or database is required.
+The development of this app will take place in three phases, Phase I, Phase II and Phase III. Each Phase adds more functionality and an increased level of complexity.
 
-## Phase I (front-end)
+* **Phase I** is all about implementing a useable proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore, see what they like and dislike, and potentially adjust their requirements. 
+* **Phase II** is about taking the POC and implementing a minimum viable product (MVP) that drives real tangible value for someone using the product. It takes the mocked/light features from the POC and implements them enough to be useful. 
+* **Phase III** is taking the MVP and making it slick and polished application that makes your product better than the rest. 
 
-
-
+## Phase I (Proof of Concept)
 * The app must be written using HTML, CSS and JavaScript 
 * The app will be client-side only and will not connect to any mid-tier or server
 * The app does not need to be cross browser compatible
