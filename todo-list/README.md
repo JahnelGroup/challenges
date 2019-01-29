@@ -71,16 +71,16 @@ Your goal is to have different task lists for different users. Additionally you 
 ### Functional Requirements
 
 * User Identification
- * Passwords are not required and users can be preloaded in the application. 
- * Users need a way to identify themselves upon visitng the site - they can either type their username in a textbox or selected it from a drop down. 
- * No task list should ever be shown until the user has identified themselves. 
+  * Passwords are not required and users can be preloaded in the application. 
+  * Users need a way to identify themselves upon visitng the site - they can either type their username in a textbox or selected it from a drop down. 
+  * No task list should ever be shown until the user has identified themselves. 
 * User Specific Task List
- * Users can only see their task list and cannot see those of others
- * Changes to their task list should not alter the state of any other user task list
+  * Users can only see their task list and cannot see those of others
+  * Changes to their task list should not alter the state of any other user task list
 * Multiple Task Lists
- * Users should have the ability to create/delete entire Task Lists and all functionality of add/editing/deleting tasks within those lists should apply
- * If a user attempts to delete a Task List with tasks then they should be prompted for confirmation before deleting the list
- * If a user attempts to delete a Task List with no task then no confirmation is required and the list is deleted
+  * Users should have the ability to create/delete entire Task Lists and all functionality of add/editing/deleting tasks within those lists should apply
+  * If a user attempts to delete a Task List with tasks then they should be prompted for confirmation before deleting the list
+  * If a user attempts to delete a Task List with no task then no confirmation is required and the list is deleted
 
 ### Non-Functional Requirements
 
