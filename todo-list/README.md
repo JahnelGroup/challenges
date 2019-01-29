@@ -28,7 +28,7 @@ Your goal is create a proof-of-concept where each user visit to the page show a 
 * Create Task
   * When the user enters a task in the textbox and clicks the add button or hits the enter key it should get added to the list
 * Delete Task
-  * The user should have the ability to remove a task from the task list with a delete link or button
+  * The user should have the ability to remove a task from the task list 
 * Out-of-scope
   * The user does not need the ability to edit a task in this Phase
 
@@ -53,8 +53,9 @@ Your goal is to enhance the product by adding features and providing persistent 
   * The user should have the ability to edit a Task and save the changes
   * During the editing process the user should be able to cancel the action
 * Complete Task
-  * The user should have the ability to mark tasks as complete, the visibile indication that a task is complete should be a strike-through in the font of the Task.
-  * The user should have the ability un-mark a task as complete thereby removing the strike-through.
+  * The user should have the ability to mark tasks as complete
+  * The visibile indication that a task is complete should be a strike-through in the font of the Task
+  * The user should have the ability un-mark a task as complete thereby removing the strike-through
 
 ### Non-Functional Requirements
 
@@ -63,13 +64,26 @@ Your goal is to enhance the product by adding features and providing persistent 
 
 ## Phase III
 
+Your goal is to have different task lists for different users. Additionally you will allow each user to have more than one task list. 
+
 ### Functional Requirements
 
-* TBD
+* User Identification
+ * Passwords are not required and users can be preloaded in the application. 
+ * Users need a way to identify themselves upon visitng the site - they can either type their username in a textbox or selected it from a drop down. 
+ * No task list should ever be shown until the user has identified themselves. 
+* User Specific Task List
+ * Users can only see their task list and cannot see those of others
+ * Changes to their task list should not alter the state of any other user task list
+* Multiple Task Lists
+ * Users should have the ability to create/delete entire Task Lists and all functionality of add/editing/deleting tasks within those lists should apply
+ * If a user attempts to delete a Task List with tasks then they should be prompted for confirmation before deleting the list
+ * If a user attempts to delete a Task List with no task then no confirmation is required and the list is deleted
 
 ### Non-Functional Requirements
 
-* TBD
+* Your persistent storage must be enhance to store user information
+* Your server-side implementation should perform user identification and present the user only with information that they own. 
 
 ## Sample Circut
 
