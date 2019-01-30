@@ -6,7 +6,7 @@ The Todo List Challenge is to build a simple web application that allows users t
 
 The development of this app will take place in three phases, **Phase 1**, **Phase 2** and **Phase 3**. Each adds more functionality and increased level of complexity described as _Functional and Non-Functional Requirements_. Testing is an important part of Software Development and starting with Phase 2 it is expected that you begin to have coverage in some form. 
 
-As you progress through the phases you will have a code review / show case demonstrating what you've accomplished. We will capture any issues/comments/todo's are [GitHub Issues](https://guides.github.com/features/issues/) in your repository. You are expected to address these issue while you contine to develop the application.
+As you progress through the phases you will have a code review / show case demonstrating what you've accomplished. We will capture any issues/comments/todo's as [GitHub Issues](https://guides.github.com/features/issues/) in your repository. You are expected to address them while continuing to develop the application.
 
 * **Phase 1** we implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. 
 
