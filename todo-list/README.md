@@ -32,7 +32,7 @@ Your goal is create a proof-of-concept where each user visit to the page show a 
 * Delete Task
   * The user should have the ability to remove a task from the task list 
 * Out-of-scope
-  * The user does not need the ability to edit a task in this Phase
+  * The user does not need the ability to edit a task in this phase
 
 ### Non-functional Requirements
 * The app will be [client-side](https://en.wikipedia.org/wiki/Client-side) only and will not connect to any mid-tier or data store server
@@ -40,6 +40,7 @@ Your goal is create a proof-of-concept where each user visit to the page show a 
 * The app does not need to be [cross browser compatible](https://medium.com/@sarahelson81/what-is-cross-browser-compatibility-and-why-we-need-it-b41423c3501a)
 * The app does not need to be [responsive](https://medium.com/swlh/everything-you-need-to-know-about-responsive-web-design-54c2059a7e99)
 * You do not need to use a [JavaScript Framework](https://raygun.com/blog/popular-javascript-frameworks/) but can if you want
+* You are not expected to have any kind of test coverage in this phase
 
 ## Phase 2 (Minimum Viable Product)
 
@@ -63,6 +64,7 @@ Your goal is to enhance the product by adding features and providing persistent 
 
 * The app must implement [persistent storage](https://en.wikipedia.org/wiki/Persistence_(computer_science)) (i.e., [RDBMS](https://en.wikipedia.org/wiki/Relational_database_management_system)) to retain the [State](https://en.wikipedia.org/wiki/State_(computer_science)) of To-do Tasks
 * The app must implement a [server-side](https://en.wikipedia.org/wiki/Server-side) component that receives requests and processes them against the persistent storage
+* You are expected to have enough tests to cover critical code paths in both the client and server side. These tests are expected to run automatically when the code is built.
 
 ## Phase 3 (Polish)
 
@@ -86,6 +88,7 @@ Your goal is to have different task lists for different users. Additionally you 
 
 * Your persistent storage must be enhance to store user information
 * Your server-side implementation should perform user identification and present the user only with information that they own. 
+* Your test coverage is expected to be even more robust covering not only critical code paths but multiple edge cases as well. 
 
 ## Sample Circut
 
