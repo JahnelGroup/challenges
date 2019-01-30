@@ -4,7 +4,7 @@ The Todo List Challenge is to build a simple web application that allows users t
 
 ## Outline
 
-The development of this app will take place in three phases, **Phase 1**, **Phase 2** and **Phase 3**. Each Phase adds more functionality and increased level of complexity.
+The development of this app will take place in three phases, **Phase 1**, **Phase 2** and **Phase 3**. Each adds more functionality and increased level of complexity described as _Functional and Non-Functional Requirements_. Testing is an important part of Software Development and starting with Phase 2 it is expected that you begin to have coverage in some form. 
 
 * **Phase 1** we implement a proof-of-concept (POC) that someone can actually use and get a feel for the product. It gives them something to explore and see what they like and dislike, helping them potentially adjust their requirements. 
 
@@ -88,7 +88,7 @@ Your goal is to have different task lists for different users. Additionally you 
 
 * Your persistent storage must be enhance to store user information
 * Your server-side implementation should perform user identification and present the user only with information that they own. 
-* Your test coverage is expected to be even more robust covering not only critical code paths but multiple edge cases as well. 
+* Your test coverage is expected to be more robust covering not only critical code paths but multiple edge cases as well. 
 
 ## Sample Circut
 
